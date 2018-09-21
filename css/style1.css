@@ -52,7 +52,9 @@ h2 {
 
 hr {
     display: block;
-    border-top: 1px solid #000;
+    border: 0;
+    border-top: 3px solid #000;
+    padding-bottom: 20px;
 }
 
 ul.head {
@@ -114,9 +116,10 @@ ul.nav-bottom {
   list-style: none;
   text-align: center;
   position: fixed;
-
-  /**background-color: #fff;
-  adjust location**/
+  box-sizing: border-box;
+  border: 0px solid #000;
+  background-color: #fff;
+  /**adjust location**/
   right: 0px;
   bottom: 5px;
   padding: 0;
