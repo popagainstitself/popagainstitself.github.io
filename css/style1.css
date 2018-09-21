@@ -159,9 +159,7 @@ ul.nav-bottom li {
   font-size: 12px;
   vertical-align: top;
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 0px solid #fff;
+  border: 1px solid #000;
 }
 
 .zoom-container-max img {
