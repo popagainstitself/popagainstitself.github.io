@@ -17,7 +17,15 @@
 
 			<div class="image-zoom-container-max">
 				<div class="zoom-container-max">
-					<img src="img/bkg.jpg" />
+
+					<div class="mySlides1">
+						<a href="#" onclick="plusSlides(1, 0)"><img src="img/bkg.jpg"></a>
+					</div>
+
+					<div class="mySlides1">
+						<a href="#" onclick="plusSlides(1, 0)"><img src="img/bkg1.jpg"></a>
+					</div>
+
 				</div>
 			</div>
 
@@ -50,6 +58,32 @@
 		function myFunction() {
 			document.getElementById("menu").style.display = "block";
 			document.getElementById("plus").style.display = "none";
+		}
+	</script>
+
+	<script>
+		var slideIndex = [1, 1];
+		var slideId = ["mySlides1", "mySlides2"]
+		showSlides(1, 0);
+		showSlides(1, 1);
+
+		function plusSlides(n, no) {
+			showSlides(slideIndex[no] += n, no);
+		}
+
+		function showSlides(n, no) {
+			var i;
+			var x = document.getElementsByClassName(slideId[no]);
+			if (n > x.length) {
+				slideIndex[no] = 1
+			}
+			if (n < 1) {
+				slideIndex[no] = x.length
+			}
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex[no] - 1].style.display = "block";
 		}
 	</script>
 
