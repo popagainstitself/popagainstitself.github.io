@@ -39,7 +39,7 @@ a:visited {
 
 h1 {
   color: #000;
-  font: bolder 200% Helvetica, Sans-Serif;
+  font: bolder 500% Helvetica, Sans-Serif;
   line-height: 1.2;
   letter-spacing: 0.03em;
   padding-top: 0px;
@@ -123,7 +123,7 @@ ul.nav li {
 }
 
 .container {
-  width: 600px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -159,7 +159,7 @@ ul.nav li {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .container {
     width: auto;
     padding: 0px 0px 0px 0px;
