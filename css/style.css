@@ -7,8 +7,6 @@ html {
   height: 100%;
 }
 
-.mySlides1, .mySlides2 {display: none}
-
 body {
   background-color: #fff;
   font: .8em/150% Arial, Helvetica, sans-serif;
@@ -56,7 +54,7 @@ hr {
     display: block;
     border: 0;
     border-top: 3px solid #000;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 #menu {
@@ -85,7 +83,7 @@ ul.nav {
   background-color: #fff;
   border-style: solid;
   border-width: 0px 0px 0px 0px;
-  padding: 15px 0px 0px 0px;
+  padding: 15px 0px 15px 0px;
 }
 
 ul.nav li {
@@ -98,7 +96,6 @@ ul.nav li {
 }
 
 .footer {
-
     width: 100%;
     background-image: none;
     background-repeat: repeat;
@@ -156,6 +153,7 @@ ul.nav li {
   .container {
     width: auto;
     padding: 0px 0px 0px 0px;
+
   }
 }
 
@@ -172,3 +170,5 @@ ul.nav li {
     padding: 0px 0px 0px 0px;
   }
 }
+
+.mySlides1, .mySlides2 {display: none}
